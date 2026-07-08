@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-saffron:       #E8820C;
+  --color-saffron-light: #FDF0DC;
+  --color-saffron-dark:  #B5620A;
+  --color-rose:          #C0395E;
+  --color-rose-light:    #FAE8EE;
+  --color-teal:          #0F6E56;
+  --color-teal-light:    #E1F5EE;
+  --color-cream:         #FDFAF5;
+  --color-charcoal:      #1C1C1E;
+  --color-muted:         #6B6860;
+  --color-border:        rgba(0, 0, 0, 0.10);
+
+  /* Hosur landing page (/hosur) — maroon/gold palette */
+  --color-deep-maroon:   #7B1B2E;
+  --color-warm-rose:     #C0435A;
+  --color-blush:         #F5E6EA;
+  --color-gold:          #C9861A;
+  --color-gold-light:    #FDF3E3;
+  --color-gold-accent:   #FFD98A;
+  --color-soft-gray:     #F7F5F3;
+  --font-sans-tamil:     var(--font-noto-sans-tamil);
+  --font-serif-tamil:    var(--font-noto-serif-tamil);
+  --font-ui:             var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-noto-sans-tamil), 'Noto Sans Tamil', sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+@keyframes float-call-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(192, 57, 94, 0.40); }
+  50%      { box-shadow: 0 4px 28px rgba(192, 57, 94, 0.65); }
+}
