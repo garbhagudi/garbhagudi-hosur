@@ -1,4 +1,18 @@
-import { FlaskConical, Microscope, Syringe, Activity, Sparkles, Heart } from "lucide-react";
+import {
+  FlaskConical,
+  Microscope,
+  Syringe,
+  Activity,
+  Sparkles,
+  Heart,
+  Stethoscope,
+  Search,
+  Waves,
+  Snowflake,
+  ArrowRightLeft,
+  Filter,
+  Sprout,
+} from "lucide-react";
 import SectionHeader from "@/app/_components/SectionHeader";
 
 const treatments = [
@@ -8,6 +22,13 @@ const treatments = [
   { Icon: Activity, name: "TESA/PESA", desc: "ஆண்மை குறைவு சிகிச்சை" },
   { Icon: Sparkles, name: "Blastocyst", desc: "கருவளர்ப்பு சிகிச்சை" },
   { Icon: Heart, name: "Natural Conception", desc: "இயற்கை கருத்தரிப்பு" },
+  { Icon: Stethoscope, name: "Laparoscopy", desc: "தொப்புள் துளை அறுவை சிகிச்சை" },
+  { Icon: Search, name: "Hysteroscopy", desc: "கருப்பை உள்நோக்கு பரிசோதனை" },
+  { Icon: Waves, name: "Varicocele", desc: "விந்தணு நரம்பு வீக்க சிகிச்சை" },
+  { Icon: Snowflake, name: "Semen Freezing", desc: "விந்தணு உறைவைப்பு" },
+  { Icon: ArrowRightLeft, name: "Sequential Transfer", desc: "கட்ட கட்டமான கரு மாற்று" },
+  { Icon: Filter, name: "MACS", desc: "விந்தணு தரம் பிரித்தல்" },
+  { Icon: Sprout, name: "Endometrial Rejuvenation", desc: "கருப்பை உட்படலம் புத்துயிர்" },
 ];
 
 export default function TreatmentsSection() {

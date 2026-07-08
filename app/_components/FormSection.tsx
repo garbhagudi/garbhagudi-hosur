@@ -121,7 +121,7 @@ export default function FormSection() {
               </select>
             </Field>
 
-            <Field id="duration" label="எத்தனை குழந்தைக்காக முயற்சிக்கிறீர்கள்?">
+            <Field id="duration" label="எத்தனை ஆண்டுகளாக குழந்தைக்காக முயற்சிக்கிறீர்கள்?">
               <select id="duration" name="duration" defaultValue="" className={inputCls}>
                 <option value="" disabled>
                   தேர்வு செய்யவும்
