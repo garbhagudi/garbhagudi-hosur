@@ -1,7 +1,7 @@
 import { WHATSAPP_HREF } from "@/app/_lib/constants";
 
 const specialties = [
-  "IVF & Fertility Specialist – 12+ Years",
+  "IVF & Fertility Specialist – 15+ Years",
   "PCOS & Hormonal Disorders",
   "Male Infertility & ICSI",
   "Recurrent Pregnancy Loss",

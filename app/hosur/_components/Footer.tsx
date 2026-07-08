@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-charcoal text-white/60 py-10 px-5 text-center text-[14px] md:px-8">
       <p className="mb-3">
-        <strong className="text-white/90">கர்ப்பகுடி IVF மையம் — ஓசூர்</strong>
+        <strong className="text-white/90">கர்பகுடி IVF மையம் — ஓசூர்</strong>
       </p>
       <div className="flex flex-col items-center gap-2 md:flex-row md:justify-center md:gap-0 md:flex-wrap">
         <a href={PHONE_HREF} className="hover:text-white/90 transition-colors">

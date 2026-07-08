@@ -24,8 +24,8 @@ export default function CoverageSection() {
             key={a.en}
             className="border border-deep-maroon/[0.12] rounded-[10px] p-4 text-center hover:bg-blush hover:border-warm-rose transition-all"
           >
-            <strong className="font-sans-tamil block text-[14px] text-deep-maroon font-semibold">{a.ta}</strong>
-            <span className="text-[12px] text-muted">{a.en}</span>
+            <strong className="font-sans-tamil block text-[14px] text-deep-maroon font-semibold break-words leading-snug">{a.ta}</strong>
+            <span className="text-[12px] text-muted break-words">{a.en}</span>
           </div>
         ))}
       </div>

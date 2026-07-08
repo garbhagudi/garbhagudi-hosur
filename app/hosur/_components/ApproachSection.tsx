@@ -33,7 +33,7 @@ export default function ApproachSection() {
     <section className="py-12 px-5 bg-white md:py-[4.5rem] md:px-8">
       <SectionHeader
         eyebrow="Our Difference"
-        title="கர்ப்பகுடி முறையின் வித்தியாசம்"
+        title="கர்பகுடி முறையின் வித்தியாசம்"
         subtitle="நாங்கள் வெறும் மருத்துவம் மட்டுமல்ல, ஒரு முழுமையான அனுபவம் வழங்குகிறோம்"
       />
       <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-5 max-w-[960px] mx-auto">

@@ -29,7 +29,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-[0.95rem] max-w-[560px] mx-auto mb-10 opacity-[0.88] leading-[1.75] md:text-[1.05rem]">
-          15 ஆண்டுகளாக ஆயிரக்கணக்கான குடும்பங்களுக்கு பெற்றோராக்கும் கனவை நனவாக்கிய கர்ப்பகுடி, இப்போது ஓசூரிலும் உங்களுக்காக காத்திருக்கிறது.
+          15 ஆண்டுகளாக ஆயிரக்கணக்கான குடும்பங்களுக்கு பெற்றோராகும் கனவை நனவாக்கிய கர்பகுடி, இப்போது ஓசூரிலும் உங்களுக்காக காத்திருக்கிறது.
         </p>
 
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:flex-wrap">
