@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { WHATSAPP_HREF } from "@/app/_lib/constants";
 
 const specialties = [
@@ -21,19 +22,18 @@ export default function DoctorSection() {
     <section className="py-12 px-5 bg-gold-light md:py-[4.5rem] md:px-8">
       <div className="max-w-[860px] mx-auto grid grid-cols-1 gap-6 items-center md:grid-cols-[1fr_1.6fr] md:gap-12">
         <div className="relative max-w-[260px] mx-auto sm:max-w-none">
-          <div className="bg-deep-maroon rounded-2xl aspect-[3/4] flex items-center justify-center overflow-hidden relative">
-            <svg
-              viewBox="0 0 100 120"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-[70%] opacity-35"
-              aria-hidden="true"
-            >
-              <circle cx="50" cy="38" r="22" fill="white" fillOpacity="0.2" />
-              <rect x="20" y="68" width="60" height="52" rx="8" fill="white" fillOpacity="0.15" />
-            </svg>
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 pt-6 pb-4 text-white text-[13px] text-center">
-              உங்கள் கருத்தரிப்பு நிபுணர்
+          <div className="bg-deep-maroon rounded-xl overflow-hidden relative">
+            <Image
+              src="https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmequuvod57fd07oagac62d2w"
+              alt="டாக்டர் ராதா புச்சலபள்ளி"
+              width={480}
+              height={640}
+              sizes="(min-width: 768px) 320px, 260px"
+              className="w-full h-auto object-cover object-top"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 pt-8 pb-4 text-white text-center font-sans-tamil">
+              <span className="block text-[15px] font-bold">டாக்டர் ராதா புச்சலபள்ளி</span>
+              {/* <span className="block text-[12px] opacity-85">உங்கள் கருத்தரிப்பு நிபுணர்</span> */}
             </div>
           </div>
         </div>

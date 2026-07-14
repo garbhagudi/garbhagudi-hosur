@@ -8,7 +8,7 @@ export default function Footer() {
       </p>
       <div className="flex flex-col items-center gap-2 md:flex-row md:justify-center md:gap-0 md:flex-wrap">
         <a href={PHONE_HREF} className="hover:text-white/90 transition-colors">
-          📞 +91 88800 00909
+          📞 +91 9071234003
         </a>
         <span className="hidden md:inline">&nbsp;|&nbsp;</span>
         <a href={WHATSAPP_HREF} className="hover:text-white/90 transition-colors">
