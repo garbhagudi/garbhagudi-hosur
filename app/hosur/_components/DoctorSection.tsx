@@ -32,8 +32,8 @@ export default function DoctorSection() {
               className="w-full h-auto object-cover object-top"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-4 pt-8 pb-4 text-white text-center font-sans-tamil">
-              <span className="block text-[15px] font-bold">டாக்டர் ராதா புச்சலபள்ளி</span>
-              {/* <span className="block text-[12px] opacity-85">உங்கள் கருத்தரிப்பு நிபுணர்</span> */}
+              <span className="block text-[15px] font-bold">டாக்டர். ராதா. பி</span>
+              <span className="block text-[12px] opacity-85">Dr. Radha P</span>
             </div>
           </div>
         </div>
